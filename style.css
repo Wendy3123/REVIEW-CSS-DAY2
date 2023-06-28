@@ -1,61 +1,112 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
 
-body{
+body {
     background-color: #eee;
     font-family: Source Sans Pro;
 }
 
-.newspaper-container{
-    width:700px;
+.newspaper-container {
+    width: 700px;
     border-radius: 14px;
     box-shadow: 5px 5px 5px #ddd;
     text-align: center;
     background-color: white;
-    margin:40px auto;
-    padding:20px 20px 20px 20px;
+    margin: 40px auto;
+    padding: 20px 20px 20px 20px;
 }
 
-h1{
-    font-family:Abril Fatface;
+h1 {
+    font-family: Abril Fatface;
     font-size: 42px;
 }
 
-nav{
+nav {
     border-top: 2px solid rgb(208, 208, 208);
     border-bottom: 2px solid rgb(208, 208, 208);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
 }
 
-ul{
-    padding-left: 0; 
+ul {
+    padding-left: 0;
 }
 
-li{
+li {
     list-style: none;
-    display:inline-block;
+    display: inline-block;
 }
 
-a{
+a {
     color: #777;
     text-decoration: none;
-    padding:0 10px 0 0;
+    padding: 0 10px 0 0;
     font-size: 15px;
 }
 
-h2{
+h2 {
     text-align: left;
     font-size: 26px;
 }
 
-h5,p,h4,.date{
+h5,
+p,
+h4,
+.date {
     text-align: left;
 }
 
-#firstpic{
-    position: relative;
-    left:-50px;
+#firstpic {
+    width:100%
 }
 
-.smallpics{
-    position: relative;
-    left:-200px
+
+#firstp {
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgb(208, 208, 208);
+    margin-left:2%;
+    margin-right:2%;
+}
+
+h4,
+h2 {
+    font-family: Roboto Slab;
+}
+
+h5 {
+    color: #dd3232;
+    font-family: Abril Fatface;
+    font-size: 16px;
+}
+
+.more-articles {
+    display: flex;
+
+}
+
+.smalltexts{
+    width: 81%;
+    margin-left: 10%;
+}
+
+p{
+    color: #777;
+}
+
+h4{
+    margin-left: 7%;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding:0 30px 0 30px;
+    border-top: 2px solid rgb(208, 208, 208);
+}
+
+.footerp{
+    color:#9b4c4c;
+    justify-content: space-evenly;
+    font-size: 1.1em;
 }
